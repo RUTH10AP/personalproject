@@ -1,0 +1,22 @@
+.header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.header{
+    margin-top: 5%;
+    margin-bottom: 20px;
+    background: fixed;
+    background-color: #919ea3;
+    text-align: center;
+}
+footer{
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: bisque;
+}
+img{
+    max-width: 100%;
+}
+

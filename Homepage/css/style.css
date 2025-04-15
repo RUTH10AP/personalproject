@@ -1,0 +1,28 @@
+.header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    font-size: large;
+}
+.header{
+    background-color: rgb(156, 148, 148)
+    ;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+body{
+background-image: url(../imags/image.png);
+}
+footer{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+footer{
+    padding-top: 100px;
+}
