@@ -1,0 +1,23 @@
+body{
+    background-image: url(../images/image.png);
+}
+.register ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.TechCon{
+    text-align: center;
+}
+footer{
+    text-align: left;
+    background-color: bisque;
+}
+.TechCon:hover{
+    color: brown;
+    text-decoration: rgb(62, 13, 177);
+}
+.register{
+    background-color: rgb(138, 233, 233);
+    padding: 1px;
+}

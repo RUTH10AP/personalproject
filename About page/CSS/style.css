@@ -4,11 +4,10 @@
     justify-content: space-between;
 }
 .header{
-    margin-top: 5%;
-    margin-bottom: 20px;
     background: fixed;
-    background-color: #919ea3;
+    background-color: #7b878b;
     text-align: center;
+    padding: 1px;
 }
 footer{
     text-align: right;
@@ -16,7 +15,11 @@ footer{
     margin-bottom: 15px;
     background-color: bisque;
 }
-img{
-    max-width: 100%;
+
+body{
+    background-image: url(../images/image.png);
 }
 
+img{
+    width: 100%;
+}

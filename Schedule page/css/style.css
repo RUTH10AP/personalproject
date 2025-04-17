@@ -1,0 +1,41 @@
+body{
+background-image: url(./images/image.png);
+}
+.myheader{
+margin-top: auto;
+margin-bottom: auto;
+text-align: center;
+height: 50px;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background-color: azure;
+}
+table{
+width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      box-shadow: 0 10px 20px rgba(7, 29, 12, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    thead {
+      background-color: #393a39;
+      color: rgb(190, 22, 22);
+    }
+
+    th, td {
+      padding: 16px 20px;
+      text-align: left;
+    }
+footer{
+text-align: center;
+padding-top: 10px;
+background-color: rgb(15, 100, 100);
+margin-top: 30px;
+}
+   

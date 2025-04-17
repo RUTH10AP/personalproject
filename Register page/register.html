@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register page</title>
+    <link rel="stylesheet" href= "css/style.css">
 </head>
 <body>
     <header>
         <h1>Register for TechCon 2024</h1>
-        <nav>
-            <a href="../Homepage/home.html">home</a>
-            <a href="../About page/about.html">about</a>
-            <a href="../Schedule page/schedule.html">schedule</a>
-            <a href="../Contact page/contact.html">contact</a>
+        <nav class="register">
+            <ul>
+                <li> <a href="../Homepage/home.html">home</a></li>
+<li><a href="../About page/about.html">about</a></li>
+<li><a href="../Schedule page/schedule.html">schedule</a></li>
+<li><a href="../Contact page/contact.html">contact</a></li>
+            </ul>
         </nav>
-    </header>
+    </header> <br><br>
+    <hr>
+    <br/><br/>
     <main>
-        <form action="#">
+        
+        <div class="TechCon">
+            <form action="#">
             <label for="name"> first name:</label><br/>
-            <input type="text" id="fname" name="fname" value=""><br/>
-            <label for="lname">Last name:</label><br/>
-            <input type="text" id="lname" name="lname" value=""><br/>
-            <label for="email">Email</label><br/>
-            <input type="email" id="email" name="email" value=""><br/>
+            <input type="text" id="fname" name="fname" value=""><br/><br>
+            <label for="lname">Last name:</label><br/><br>
+            <input type="text" id="lname" name="lname" value=""><br/><br>
+            <label for="email">Email</label><br/><br>
+            <input type="email" id="email" name="email" value=""><br/><br>
             <label for="password">password</label> <br/>
-            <input type="password" id="password" name="password" minlength="8" maxlength="10"><br/>
+            <input type="password" id="password" name="password" minlength="8" maxlength="10"><br/><br>
             
             <input type="checkbox" id="checkbox" name="checkbox"><br/>
             <label for="register">Register Now!!</label><br/><br/>
@@ -33,6 +40,7 @@
 
 
         </form>
+        </div>
     </main>
     <footer>
       <p><b>Developed by : Ruth Wonde</b></p>
